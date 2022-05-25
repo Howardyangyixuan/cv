@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <title>我的简历</title>
+  <link rel="icon" href="北航校徽.1ed413a3.jpg">
+  <style>* {
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #eee;
+      margin: 20px 0;
+    }
+
+    article {
+      width: 21cm;
+      min-height: 29.7cm;
+      background: white;
+      margin: 0 auto;
+      overflow: auto;
+      padding: 1em;
+    }</style>
+  <style media="print">h2 {
+      margin-top: 25px;
+      margin-bottom: 5px;
+    }
+
+    .hide {
+      display: inline;
+    }
+
+    #skills {
+      display: none;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .page2 {
+      height: 1px;
+      page-break-before: always;
+      margin-top: 9px;
+    }</style>
+  <style>body {
+    }
+
+    p {
+      margin: 0.3em 0;
+    }
+
+    h1 {
+      font-size: 25px;
+      margin-top: 0;
+    }
+
+    h4,
+    h5,
+    h6 {
+      font-weight: normal;
+    }
+
+    ol,
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    strong {
+      font-weight: normal;
+      color: #f60;
+    }
+
+    a {
+      color: #999;
+      text-decoration: none;
+      border-bottom: 1px solid;
+    }
+
+    p,
+    li {
+      color: #666;
+    }
+
+    strong {
+      font-weight: normal;
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0;
+    }
+
+    .bio {
+      position: relative;
+    }
+
+    .bio img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%
+    }
+
+    .hide {
+      display: none;
+    }</style>
+
+  <style>.projects {
+    }
+
+    .projects p {
+      color: #666;
+    }
+
+    .projects strong {
+      color: #f60;
+    }
+
+    .projects > ol {
+      margin-top: 0;
+      list-style-position: inside;
+      padding: 0;
+    }
+
+    .projects > ol > li {
+      margin-bottom: 24px;
+    }
+
+    .projects > ol > li > header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .projects > ol > li h3 {
+      display: inline-block;
+    }</style>
+  <style>.skills {
+    }
+
+    #skills {
+      width: 500px;
+      height: 270px;
+    }
+
+    .skills > .wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .skills > .wrapper > :first-child {
+      margin-right: 24px;
+    }
+
+    .skills > .wrapper > #skills {
+    }
+
+    .skills > .wrapper > ul {
+      color: #666;
+    }
+
+    .skills > .wrapper strong {
+      color: #f60;
+    }
+
+    .skills > .wrapper > ul > li {
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }</style>
+  <style>.openSource {
+    }
+
+    .openSource > h2 {
+    }
+
+    .openSource header img {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    .openSource > ul {
+    }
+
+    .openSource > ul > li {
+      margin-bottom: 24px;
+    }
+
+    .openSource header {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .openSource h3 {
+    }</style>
+  <style>.jobs {
+    }
+
+    .jobs > h2 {
+    }
+
+    .jobs > ol {
+    }
+
+    .jobs > ol > li {
+      margin: 12px 0;
+    }
+
+    .jobs header {
+      display: flex;
+      color: #666;
+      margin-bottom: 12px;
+    }
+
+    .jobs header > h3 {
+      font-size: 18px;
+      color: #333;
+    }
+
+    .jobs header > h4 {
+      margin-left: 1em;
+      font-size: 18px;
+    }
+
+    .jobs header > span {
+      font-size: 18px;
+      margin-left: auto;
+    }</style>
+
+  <!--  打印t-->
+  <style>@media print {
+
+    }</style>
+  <!--  媒体查询-->
+  <style>@media (max-width: 500px) {
+      body {
+        margin: 0;
+      }
+
+      article {
+        width: auto;
+        height: auto;
+      }
+
+      .bio img {
+        height: 35vw;
+      }
+
+      .skills .wrapper {
+        flex-direction: column;
+      }
+
+      #skills {
+        width: auto;
+      }
+
+      .jobs header {
+        flex-direction: column;
+      }
+
+      .jobs header > h3,
+      .jobs header > h4,
+      .jobs header > span {
+        margin: 0;
+      }
+    }</style>
+</head>
+
+<body>
+<article>
+  <section class="bio">
+    <h1>杨义轩</h1>
+    <img src="一寸笑脸_120k.92c89759.jpg" alt="">
+    <p>
+      男 | 23岁 | 前端开发工程师 | 北京<span class="hide">｜<a href="https://yangyixuan.icu/cv/">在线简历体验更佳</a></span>
+    </p>
+    <p>
+      手机：<a href="tel:18701405696" id="tel" data-clipboard-text="18701405696">18701405696</a>
+    </p>
+    <p>
+      微信：<a href="javacript:void('点击复制')" id="weChat" data-clipboard-text="howardyangyixuan">howardyangyixuan</a>
+    </p>
+    <!-- <button id="weChat2" style="background-color:inherit; border:none" data-clipboard-text="howardyangyixuan">微信：howardyangyixuan</button>  -->
+    <!--    <p> 邮箱：<a href="mailto:howardyangyixuan@gmail.com">howardyangyixuan@gmail.com</a> </p>-->
+    <p>
+      邮箱：<a href="javacript:void('点击复制')" id="email" data-clipboard-text="howardyangyixuan@gmail.com">howardyangyixuan@gmail.com</a>
+    </p>
+  </section>
+
+  <section class="education">
+    <h2>教育经历</h2>
+    <p>
+      <span><time>2010年</time>~<time>2016年</time></span>
+      北京一零一中学
+    </p>
+    <p>
+      <span><time>2016年</time>~<time>2020年</time></span>
+      北京工业大学(211) 计算机科学与技术 本科
+      <strong>北京市优秀毕业生</strong>
+      <b>GPA: 93.03 (Top 1 / 156)</b>
+    </p>
+    <p>
+      <span><time>2020年</time>~<time>至今</time></span>
+      北京航空航天大学(985&211) 计算机科学与技术 硕士
+    </p>
+
+  </section>
+  <section class="projects">
+    <h2>项目经历</h2>
+    <ol>
+      <li>
+        <header>
+          <h3>心灵树洞</h3>
+          <span>
+                <a href="https://github.com/Howardyangyixuan/nextjs-blog-1">源码链接</a>
+                <a href="http://47.94.205.246:3000/">项目预览</a>
+              </span>
+        </header>
+        <p>
+          一款基于 <strong>Next.js</strong> /
+          <strong>TypeORM</strong> / <strong>Cypress</strong> 的心情分享Web应用。
+        </p>
+        <p>
+          主要功能包括用户登录、注册、发布/编辑分享心情（支持Markdown）等。完整经历数据库设计、后端开发、前端展示、测试和部署等Web应用开发全流程。
+        </p>
+        <p>
+          在项目过程中，我深入理解 <a href="https://yangyixuan.icu/posts/cookie%E5%85%A8%E8%A7%A3/">Cookie 和 Session</a>
+          相关知识，通过实践了解<a href="https://yangyixuan.icu/categories/web%E5%AE%89%E5%85%A8/"> XSS </a>等安全问题，并对前端工程化中的构建打包，性能优化等有了更加深入的理解。
+        </p>
+      </li>
+      <li>
+        <header>
+          <h3>MONE¥++</h3>
+          <!--            <img style="position: absolute;" width="70px" height="33px" src="./images/morney.png" alt=""></h3>-->
+          <span>
+                <a href="https://github.com/Howardyangyixuan/react-money">源码链接</a>
+                <a href="https://yangyixuan.icu/react-morney-website/index.html">项目预览</a>
+              </span>
+        </header>
+        <p>
+          一款基于于 <strong>React</strong> /
+          <strong>TypeScript</strong> 的移动端极简主义记账应用。
+        </p>
+
+        <p>
+          该项目以我自己的实际需求出发，选用主流技术栈，解决我记账不便的问题。
+        </p>
+        <p>
+          在项目使用<strong> 自定义 Hooks </strong> 代替Redux进行数据统一管理，并配合 <strong>CSS-in-JS</strong>
+          的思想对组件进行封装和复用，在过程中<a href="https://yangyixuan.icu/posts/%E6%B5%85%E6%9E%90babel/"> 了解Babel</a>
+          ，并通过实现一个简易的打包器<a href="https://yangyixuan.icu/posts/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3webpack/">
+          深入理解Webpack </a>，并学会灵活配置<strong> Webpack </strong> 解决特定问题。
+        </p>
+      </li>
+      <li>
+        <header>
+          <h3>Yyx UI</h3>
+          <span>
+                <a href="https://github.com/Howardyangyixuan/vue-ui-1">源码链接</a>
+                <a href="https://yangyixuan.icu/vue-ui-website/index.html">项目预览</a>
+              </span>
+        </header>
+        <p>
+          一款基于 <strong>Vue3</strong> / <strong>TypeScript</strong> /
+          <strong>Vite</strong> 的 UI 框架。
+        </p>
+        <p>
+          主要组件有开关、按钮、对话框、<strong>导航 </strong>等。
+        </p>
+        <p>
+          项目制作过程中为了深入理解 <a href="https://yangyixuan.icu/posts/%E5%86%8D%E8%B0%88vue%E6%95%B0%E6%8D%AE%E5%93%8D%E5%BA%94%E5%BC%8F/">Vue数据响应式原理 </a>，我还尝试实现了一个
+          <a href="https://yangyixuan.icu/vue-reactive-demo-1/"> 极简版响应式系统 </a>。
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="skills">
+    <h2>技能</h2>
+    <div class="wrapper">
+      <div id="skills"></div>
+      <ul>
+        <li>熟悉页面布局技巧，能将设计稿完美还原，熟练使用Echarts进行 <a href="https://yangyixuan.icu/data-visualization/">数据可视化</a> 。</li>
+        <li>
+          熟悉<strong> 前后端分离 </strong>技术，包括
+          AJAX、跨域、前端路由、Cookie、Session 等。
+        </li>
+        <li>
+          基本掌握 Vue全家桶 的使用，包括
+          VueCli、VueRouter、Vuex 等。
+        </li>
+        <li>
+          熟练掌握 <strong>React全家桶</strong> 的使用，包括
+          create-react-app、ReactRouter、Redux 等。
+        </li>
+        <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
+        <li>
+          掌握<strong> TypeScript </strong>的使用，我的项目就是 TS 实现的。
+        </li>
+        <li>掌握<strong> Webpack 的配置和优化</strong>。</li>
+      </ul>
+    </div>
+  </section>
+  <div class="page2"></div>
+  <section class="openSource">
+    <h2>开源项目</h2>
+    <ul>
+      <li>
+        <header>
+          <h3>Y-y_x的导航网站</h3>
+          <span>
+          <a href="https://github.com/Howardyangyixuan/nav-1">源码链接</a>
+          <a href="https://yangyixuan.icu/nav-1/dist/index.html">项目预览</a>
+          </span>
+        </header>
+        <p>
+          个性化导航网站，采用 <strong>HTML5标签</strong> 遵守 <strong>HTML语义化</strong>，在实现过程中 <strong>自行封装JQuery</strong>，并通过媒体查询和自定义函数，兼顾PC端和移动端用户体验。
+        </p>
+      </li>
+      <!--      <li class="page2">-->
+      <li>
+        <header>
+          <h3>皮卡丘的诞生</h3>
+          <span>
+                <a href="https://github.com/Howardyangyixuan/pikachu-1">源码链接</a>
+                <a href="https://yangyixuan.icu/pikachu-1/dist/test">项目预览</a>
+              </span>
+        </header>
+        <p>一个根据设计稿绘制皮卡丘的小项目，展示我的 <strong>CSS3和动画</strong> 基本功。</p>
+      </li>
+      <li>
+        <header>
+          <h3>你画我猜练习板</h3>
+          <span>
+                <a href="https://github.com/Howardyangyixuan/canvas-demo-1">源码链接</a>
+                <a href="https://yangyixuan.icu/canvas-demo-1/">项目预览</a>
+              </span>
+        </header>
+        <p>受游戏 你画我猜 启发，采用 <strong>Canvas</strong> 实现的小作品，适配移动端和PC端，并嵌入到我的个人网站。</p>
+      </li>
+    </ul>
+  </section>
+
+
+  <section class="others">
+    <h2>其他链接</h2>
+    <ul>
+      <li>
+        <a href="https://yangyixuan.icu/">我的博客</a>，目前已有 59 篇技术文章
+      </li>
+      <li>
+        <a href="https://github.com/Howardyangyixuan">我的 GitHub</a>，有60个仓库，过去一年有
+        200 多次提交
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/yyx/">我的 LinkedIn主页</a>，了解我的更多信息
+      </li>
+    </ul>
+  </section>
+</article>
+<script src="https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.3.2/echarts.min.js"></script>
+<script src="main.b9dd1a30.js"></script>
+</body>
+</html>
